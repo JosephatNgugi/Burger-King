@@ -104,12 +104,12 @@ nav .fa{
     font-size: 20px;
 }
     
-                 /* ---------text box---------------- */
+                
 .button{
     padding-left: 150px;
     padding-bottom: 300px;
     
-    
+     /* ---------MENU---------------- */
     
 }
 button {
@@ -125,25 +125,30 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
-.Top-Group{
-padding: 20px;
+
+#Laces{
+    background: rgba(191, 248, 229, 0.1);
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.text-box{
+    flex-basis: 31%;
+    background: none;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 200px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.Laces{
-
-
-
-}
-
-
-.right-color{
-
-
+h3{
+    color: #681f0d;
+    font-size: 30px;
+    padding-bottom: 20px;
 
 }
-
-.center-lace{
-
-
-
+p{
+    margin: 20;
 }
