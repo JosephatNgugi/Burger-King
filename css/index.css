@@ -7,17 +7,33 @@
 }
                 /* ---------Navigation---------------- */
 
+/* .trapezoid{
+    border-bottom: 50px solid #F6B400;
+    border-left: 50px solid transparent;
+    border-right: 0 solid;
+    height: 100%;
+    background-blend-mode: luminosity; */
 
-.header{
+.split{
+    background: linear-gradient(105deg, white 743px, #F6B400 100px);
+    padding-bottom: 10px;
+    position: relative;
+    height: 1000px;
+    
+    
+}
+#header{
     min-height: 100vh;
     width: 100%;
     position: relative;
-}
+    padding-right: 50px;
+    }
 nav{
     display: flex;
     padding: 2%;
     justify-content: space-between;
     align-items: center;
+    padding-right: 88px;
 }
 span{
     color: #F6B400;
@@ -32,16 +48,17 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 25px;
     position: relative;
+    
     /* nav inline styling */
 }
 .nav-links ul li a{
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 600;
-    padding-bottom: 3px;
+    padding-bottom: 300px;
     /* nav text style */
 }
 .nav-links ul li::after{
@@ -58,10 +75,56 @@ nav img{
     width: 100%;
     /*hover effect after placing cursor*/
 }
+nav .fa{
+    display: block;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+/* HOME*/
+.home{
+    display: grid;
+    grid-column-gap: 200px;
+    grid-row-gap: 10px;
+    padding-left: 50px;
+    padding-right: 80px;
+    grid-template-columns: auto auto;
+}
+.rightside-home{
+    padding-top: 200px;
+}
+.rightside-home h1{
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+}
+.rightside-home p{
+    color: rgb(100, 100, 100);
+    padding-top: 50px;
+    font-size: 20px;
+}
     
                  /* ---------text box---------------- */
-
-
+.button{
+    padding-left: 150px;
+    padding-bottom: 300px;
+    
+    
+    
+}
+button {
+  background-color: #F6B400; 
+  border: #F6B400;
+  color: white;
+  padding: 20px;
+  border-radius: 30px 30px 0px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .Top-Group{
 padding: 20px;
 }
