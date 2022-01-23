@@ -186,20 +186,29 @@ p{
     border: 1px solid grey;
     max-width: 250px;
 }
-   .price-cart{
+ .price-cart{
        padding-top: 25px;
        text-align: left;
        font-size: 23px;
        font-weight: bold;
    }
-   #bottom{
-    display: flex;
+#bottom{
+    display: flexbox;
     background: rgba(191, 248, 229, 0.1);
     padding-top: 100px;
     padding-bottom: 130px;
 
    }
-   .leftside{
+.Offers{
+    display: grid;
+    grid-column-gap: 200px;
+    grid-row-gap: 10px;
+    padding-left: 50px;
+    padding-right: 80px;
+    grid-template-columns: auto auto;
+    padding-bottom: 100px;
+}
+.leftside{
     padding-top: 50px;
     padding-left: 50px;
 }
@@ -229,4 +238,10 @@ p{
     top: 0;
     left: 0;
     
+}
+.Mobile{
+    display: flexbox;
+    background-color: #F6B400;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
