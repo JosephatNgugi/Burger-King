@@ -1,8 +1,9 @@
 *{
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    /* box-sizing: border-box; */
     
 }
                 /* ---------Navigation---------------- */
@@ -15,10 +16,10 @@
     background-blend-mode: luminosity; */
 
 .split{
-    background: linear-gradient(105deg, white 743px, #F6B400 100px);
+    background: linear-gradient(105deg, white 2290px, #F6B400 100px);
     padding-bottom: 10px;
     position: relative;
-    height: 1000px;
+    height: 2200px;
     
     
 }
@@ -33,11 +34,11 @@ nav{
     padding: 2%;
     justify-content: space-between;
     align-items: center;
-    padding-right: 88px;
+    padding-right: 150px;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 120px;
     font-style: italic;
     font-weight: 1000;
 }
@@ -46,7 +47,7 @@ span{
     
 }
 nav img{
-    width: 80px;
+    width: 250px;
 }
 .nav-links{
     flex: 1;
@@ -55,7 +56,7 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 25px;
+    padding: 8px 85px;
     position: relative;
     
     /* nav inline styling */
@@ -63,7 +64,7 @@ nav img{
 .nav-links ul li a{
     color: black;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 60px;
     font-weight: 600;
     padding-bottom: 300px;
     /* nav text style */
@@ -71,7 +72,7 @@ nav img{
 .nav-links ul li::after{
     content: '';
     width: 0%;
-    height: 5px;
+    height: 20px;
     background-color: #f64e00;
     display: block;
     margin: auto;
@@ -91,30 +92,32 @@ nav .fa{
 /* HOME*/
 .home{
     display: grid;
-    grid-column-gap: 200px;
+    grid-column-gap: 0px;
     grid-row-gap: 10px;
-    padding-left: 50px;
-    padding-right: 80px;
+    padding-left: 250px;
+    padding-right: 0px;
     grid-template-columns: auto auto;
 }
 .leftside-home{
-    padding-top: 200px;
+    padding-top: 500px;
 }
 .leftside-home h1{
     color: black;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 120px;
 }
 .leftside-home p{
     color: rgb(100, 100, 100);
     padding-top: 50px;
-    font-size: 20px;
+    font-size: 60px;
 }
-    
+.rightside-home{
+    padding-top: 200px;
+} 
                 
 .button{
     padding-left: 150px;
-    padding-bottom: 300px;
+    /* padding-bottom: 300px; */
     
     
 }
@@ -122,12 +125,12 @@ button {
   background-color: #F6B400; 
   border: #F6B400;
   color: white;
-  padding: 20px;
-  border-radius: 30px 30px 0px 30px;
+  padding: 30px;
+  border-radius: 60px 60px 0px 60px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  display: inline;
+  font-size: 60px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -136,67 +139,70 @@ button {
     display: flex;
     background: rgba(191, 248, 229, 0.1);
     padding-top: 150px;
-    padding-bottom: 130px;
+    padding-bottom: 100px;
 }
 .text-box{
-  margin: 50px;
+  margin: 150px;
   border: 1px solid rgba(138, 46, 39, 0.5);
   border-radius: 20px;
-  padding: 50px;
+  padding: 100px;
   text-align: center;
 
 }
 h3{
     color: #681f0d;
-    font-size: 30px;
+    font-size: 80px;
     padding-bottom: 20px;
 
 }
 p{
     margin: 20;
+    font-size: 40px;
 }
 
 
       /* ---------MENU---------------- */
 .Menu{
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 100px;
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
     font-weight: bolder;
 }
 
 #Menu{
     display: grid;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    padding-left: 45px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding-left: 250px;
     padding-right: 0px;
     padding-bottom: 100px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
 }
 .Laces{
-    display: block;
+    display: flexbox;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
     border-radius: 20px;
-    padding: 45px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
     padding-bottom: 25px;
     border: 1px solid grey;
-    max-width: 250px;
+    max-width: 750px;
 }
  .price-cart{
-       padding-top: 25px;
+       padding-top: 60px;
        text-align: left;
-       font-size: 23px;
+       font-size: 55px;
        font-weight: bold;
    }
 #bottom{
     display: flexbox;
     background: rgba(191, 248, 229, 0.1);
-    padding-top: 100px;
-    padding-bottom: 130px;
+    padding-top: 250px;
+    padding-bottom:130px;
 
    }
 .Offers{
@@ -206,25 +212,27 @@ p{
     padding-left: 50px;
     padding-right: 80px;
     grid-template-columns: auto auto;
-    padding-bottom: 100px;
+    padding-bottom: 500px;
 }
 .leftside{
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 100px;
+    padding-left: 300px;
 }
 .leftside h1{
     color: black;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 150px;
+    padding-bottom: 100px;
 }
 .leftside p{
     color: rgb(100, 100, 100);
     padding-top: 50px;
-    font-size: 20px;
+    font-size: 80px;
 }
 .double-image{
-    padding-top: 0px;
+    padding-top: 89px;
     position: relative;
+    /* padding-right:px ; */
     /* top: 0;
     left: 0; */
 }
@@ -232,12 +240,13 @@ p{
     position: relative;
     top: 0;
     left: 0;
+    padding-right: 50px;
 }
 .back{
     position: absolute;
     top: 0;
     left: 0;
-    
+        
 }
 .Mobile{
     display: flexbox;
@@ -245,3 +254,65 @@ p{
     padding-top: 250px;
     padding-bottom: 250px;
 }
+.footer{
+    display: flex;
+
+}
+.footer img{
+padding-left: 100px;
+padding-top: 250px;
+width: 250px;
+}
+.footer h1{
+    padding-top: 300px;
+}
+.search-container {
+    float: right;
+    padding-right: 100px;
+  }
+  
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 70px;
+    border-radius: 12px 0px 0px 12px;
+    border: 1px solid rgb(38, 29, 16);
+  }
+  .search-container h2{
+      font-size: 65px;
+      padding: 150px;
+      padding-left: 25px;
+  }
+
+  .search-container button {
+    float: right;
+    padding:6px;
+    margin-top: 8px;
+    margin-right: 800px;
+    background: #F6B400;
+    color: #fff;
+    font-size: 74px;
+    border-radius: 0px 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
+
+.sitemap {
+      float: inline;
+      font-size: 50px;
+      display: block;
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      padding: 264px;
+      padding-left: 500px;
+      padding-top: 200px;
+    }
+      input[type=text] {
+      border: 1px solid #ccc;   
+    }
