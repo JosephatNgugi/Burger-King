@@ -16,7 +16,7 @@
     background-blend-mode: luminosity; */
 
 .split{
-    background: linear-gradient(105deg, white 2290px, #F6B400 100px);
+    background: linear-gradient(105deg, white 2340px, #F6B400 100px);
     padding-bottom: 10px;
     position: relative;
     height: 2200px;
@@ -46,8 +46,13 @@ span{
     color: #F6B400;
     
 }
-nav img{
+nav .logo {
     width: 250px;
+}
+nav .basket{
+    width: 80px;
+    padding-right: 50px;
+    padding-left: 100px;
 }
 .nav-links{
     flex: 1;
@@ -64,7 +69,7 @@ nav img{
 .nav-links ul li a{
     color: black;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 600;
     padding-bottom: 300px;
     /* nav text style */
@@ -162,7 +167,7 @@ p{
 
 
       /* ---------MENU---------------- */
-.Menu{
+.Menu p{
     padding-top: 200px;
     padding-bottom: 100px;
     text-align: center;
@@ -184,7 +189,7 @@ p{
     display: flexbox;
     text-align: center;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 90px;
     padding-top: 50px;
     padding-right: 100px;
     padding-left: 100px;
@@ -193,11 +198,19 @@ p{
     max-width: 750px;
 }
  .price-cart{
+     display: flex;
        padding-top: 60px;
        text-align: left;
-       font-size: 55px;
+       font-size: 65px;
        font-weight: bold;
    }
+.trolley{
+    width: 50px;
+    background-color: rgba(99, 92, 92, 0.426);
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 350px;
+}
 #bottom{
     display: flexbox;
     background: rgba(191, 248, 229, 0.1);
@@ -253,6 +266,7 @@ p{
     background-color: #F6B400;
     padding-top: 250px;
     padding-bottom: 250px;
+    padding-left: 200px;
 }
 .footer{
     display: flex;
