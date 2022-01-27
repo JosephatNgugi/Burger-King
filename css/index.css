@@ -16,10 +16,10 @@
     background-blend-mode: luminosity; */
 
 .split{
-    background: linear-gradient(105deg, white 2340px, #F6B400 100px);
+    background: linear-gradient(105deg, white 55%, #F6B400 50%);
     padding-bottom: 10px;
     position: relative;
-    height: 2200px;
+    /* height: 100%; */
     
     
 }
